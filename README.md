@@ -1,8 +1,8 @@
-# B573 Assignment 1: Introduction to Python
+# B573 Assignment 2: Introduction to Python
 
 ## Programming Language: Python
 
-## Date: September 6, 2023
+## Date: September 15, 2023
 
 ## Description:
 
