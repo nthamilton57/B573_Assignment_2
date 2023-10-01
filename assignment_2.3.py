@@ -23,28 +23,28 @@ def fib_nums():
         #print(fib_seq)
         return fib_seq
 
-def fib_quot(list):
+def fib_quot(alist):
     fib_quot = [1]
     n = 0
-    if len(list) == 1:
+    if len(alist) == 1:
         return fib_quot
     else:
-        while n < len(list)-1:
-            fib_quot.append(list[n+1]/list[n])
+        while n < len(alist)-1:
+            fib_quot.append(alist[n+1]/alist[n])
             n += 1
     return fib_quot
 
 #Use your second list of numbers to make a third group of numbers, where the first two elements are 0, and each subsequent element is the difference of the corresponding element in the second list and the previous element in the list group.
 
-def fib_dif(list):
+def fib_dif(alist):
     fib_dif = []
     n=0
-    while n < len(list):
+    while n < len(alist):
         if n <=1:
             fib_dif.append(0)
             n += 1
         else:
-            fib_dif.append(list[n]-list[n-1])
+            fib_dif.append(alist[n]-alist[n-1])
             n += 1
     return fib_dif
 
